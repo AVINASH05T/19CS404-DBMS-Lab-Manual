@@ -104,18 +104,24 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
+
 ![image](https://github.com/user-attachments/assets/67a12bdb-7247-4db9-a566-742efcc46216)
+
+
 ```sql
 INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)
 VALUES(2,'John Smith','Developer','IT',75000);
 INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)
 VALUES(3,'Anna Bell','Designer','Marketing',68000);
 ```
+
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/fc919405-ab15-49ba-9b5f-b5bce79b7b20)
 
 
 **Question 2**
+
 ![image](https://github.com/user-attachments/assets/c1b89dc0-fdd7-4f52-9b7a-fdb51bb51dad)
 ```sql
 CREATE TABLE jobs(
@@ -125,105 +131,130 @@ min_salary INTEGER DEFAULT 8000,
 max_salary INTEGER DEFAULT NULL
 );
 ```
+
 **Output:**
 ![image](https://github.com/user-attachments/assets/24748945-ea54-4a15-9804-0437ce94834d)
 
 
 **Question 3**
----
--- Paste Question 3 here
+
+![image](https://github.com/user-attachments/assets/e10c4011-ab8d-4ab1-9c76-8efb39d26c72)
+
 
 ```sql
--- Paste your SQL code below for Question 3
+CREATE TABLE Members(
+MemberID INTEGER,
+MemberName TEXT,
+JoinDate DATE
+);
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/a42cd9c9-b621-46c8-aa90-1654bc3a48d3)
 
-![Output3](output.png)
+
+
 
 **Question 4**
----
--- Paste Question 4 here
 
-```sql
--- Paste your SQL code below for Question 4
-```
+![image](https://github.com/user-attachments/assets/5c106c88-efac-4283-9609-6421bf659773)
 
-**Output:**
-
-![Output4](output.png)
 
 **Question 5**
----
--- Paste Question 5 here
+![image](https://github.com/user-attachments/assets/87f0aee8-1aa6-4f38-abef-704b78da9f40)
+
 
 ```sql
--- Paste your SQL code below for Question 5
+CREATE TABLE ProjectAssignments(
+AssignmentID  int PRIMARY KEY,
+EmployeeID int,
+ProjectID int,
+AssignmentDate date NOT NULL,
+foreign key (EmployeeID)references Employees(EmployeeID),
+foreign key (ProjectID)references Projects(ProjectID)
+);
 ```
 
 **Output:**
 
-![Output5](output.png)
+![image](https://github.com/user-attachments/assets/af3c08b3-032a-4025-9244-cf0ad2e78f39)
+
+
 
 **Question 6**
----
--- Paste Question 6 here
+
+ ![image](https://github.com/user-attachments/assets/9b7a1550-d378-468f-86b9-682051836142)
+
 
 ```sql
--- Paste your SQL code below for Question 6
+CREATE TABLE Invoices(
+InvoiceID INTEGER primary key,
+InvoiceDate DATE ,
+DueDate DATE CHECK(DueDate > InvoiceDate),
+Amount REAL  CHECK(Amount > 0)
+);
 ```
 
 **Output:**
 
-![Output6](output.png)
+![image](https://github.com/user-attachments/assets/04c21ed5-2834-4b32-8f1c-00aa0c089541)
+
 
 **Question 7**
----
--- Paste Question 7 here
+![image](https://github.com/user-attachments/assets/5c461205-abab-4c88-aa2d-6689cbf2f553)
 
-```sql
--- Paste your SQL code below for Question 7
-```
-
-**Output:**
-
-![Output7](output.png)
 
 **Question 8**
----
--- Paste Question 8 here
+
+![image](https://github.com/user-attachments/assets/d0dddb24-b633-4e20-b22e-c3e6d9138e54)
+
 
 ```sql
--- Paste your SQL code below for Question 8
+CREATE TABLE Employees(
+EmployeeID INT primary key,
+FirstName VARCHAR(50) NOT NULL,
+LastName VARCHAR(50) NOT NULL,
+Email VARCHAR(50) UNIQUE,
+Salary DECIMAL (10,2) CHECK(Salary > 0),
+DepartmentID INT,
+FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
 ```
 
 **Output:**
 
-![Output8](output.png)
+![image](https://github.com/user-attachments/assets/212de811-c259-4292-9858-74b375c74f3d)
+
 
 **Question 9**
----
--- Paste Question 9 here
+
+![image](https://github.com/user-attachments/assets/199b0a4d-3749-4485-97c3-142a79d4d001)
+
+
 
 ```sql
--- Paste your SQL code below for Question 9
+ALTER TABLE employee RENAME COLUMN id TO employee_id;
 ```
 
 **Output:**
 
-![Output9](output.png)
+![image](https://github.com/user-attachments/assets/05236aca-6d28-4b42-9b2b-d38cf978e521)
+
+
 
 **Question 10**
----
--- Paste Question 10 here
+
+![image](https://github.com/user-attachments/assets/637afe1b-54b8-43b4-8f7c-0791f524e7f6)
+
 
 ```sql
--- Paste your SQL code below for Question 10
+ALTER TABLE books ADD COLUMN ISBN varchar(30);
+ALTER TABLE books ADD COLUMN domain_dept varchar(30);
 ```
 
 **Output:**
 
-![Output10](output.png)
+![image](https://github.com/user-attachments/assets/c78e258b-eda1-4842-a859-9ebe7de5bc1f)
 
 
 ## RESULT
