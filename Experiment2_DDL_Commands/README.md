@@ -104,28 +104,30 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
---
--- Paste Question 1 here
-
+![image](https://github.com/user-attachments/assets/67a12bdb-7247-4db9-a566-742efcc46216)
 ```sql
--- Paste your SQL code below for Question 1
+INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)
+VALUES(2,'John Smith','Developer','IT',75000);
+INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)
+VALUES(3,'Anna Bell','Designer','Marketing',68000);
 ```
-
 **Output:**
+![image](https://github.com/user-attachments/assets/fc919405-ab15-49ba-9b5f-b5bce79b7b20)
 
-![Output1](output.png)
 
 **Question 2**
----
--- Paste Question 2 here
-
+![image](https://github.com/user-attachments/assets/c1b89dc0-fdd7-4f52-9b7a-fdb51bb51dad)
 ```sql
--- Paste your SQL code below for Question 2
+CREATE TABLE jobs(
+job_id INTEGER PRIMARY KEY,
+job_title TEXT DEFAULT '',
+min_salary INTEGER DEFAULT 8000,
+max_salary INTEGER DEFAULT NULL
+);
 ```
-
 **Output:**
+![image](https://github.com/user-attachments/assets/24748945-ea54-4a15-9804-0437ce94834d)
 
-![Output2](output.png)
 
 **Question 3**
 ---
