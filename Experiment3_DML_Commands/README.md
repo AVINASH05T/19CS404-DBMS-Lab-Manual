@@ -54,8 +54,8 @@ SELECT column1, column2 FROM table_name WHERE condition;
 
 **Question 2**
 
-![image](https://github.com/user-attachments/assets/91415b69-c551-4fc5-980c-fbdccbf02bd7)
 
+<img src="![image](https://github.com/user-attachments/assets/91415b69-c551-4fc5-980c-fbdccbf02bd7)" width="200" height="200" />
 
 **Question 3**
 
