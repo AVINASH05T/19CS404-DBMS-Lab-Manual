@@ -48,6 +48,8 @@ Used to retrieve records from a table.
 SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
+
+
 ![image](https://github.com/user-attachments/assets/1179a4e6-ae77-4fee-ada4-c045cf04efe8)
 
 **Question 2**
