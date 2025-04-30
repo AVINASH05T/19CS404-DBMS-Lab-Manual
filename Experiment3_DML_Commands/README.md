@@ -1,3 +1,5 @@
+# NAME : AVINASH T
+# REG_NO : 212223230026
 # Experiment 3: DML Commands
 
 ## AIM
@@ -46,124 +48,47 @@ Used to retrieve records from a table.
 SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
---
--- Paste Question 1 here
-
-```sql
--- Paste your SQL code below for Question 1
-```
-
-**Output:**
-
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/1179a4e6-ae77-4fee-ada4-c045cf04efe8)
 
 **Question 2**
----
--- Paste Question 2 here
 
-```sql
--- Paste your SQL code below for Question 2
-```
+![image](https://github.com/user-attachments/assets/91415b69-c551-4fc5-980c-fbdccbf02bd7)
 
-**Output:**
-
-![Output2](output.png)
 
 **Question 3**
----
--- Paste Question 3 here
 
-```sql
--- Paste your SQL code below for Question 3
-```
-
-**Output:**
-
-![Output3](output.png)
+![image](https://github.com/user-attachments/assets/ebb9ad41-3467-4415-b7e1-ed45b5ab37cc)
 
 **Question 4**
----
--- Paste Question 4 here
 
-```sql
--- Paste your SQL code below for Question 4
-```
+![image](https://github.com/user-attachments/assets/7755eb68-0256-44b6-9e23-d1924cd2ceb8)
 
-**Output:**
-
-![Output4](output.png)
 
 **Question 5**
----
--- Paste Question 5 here
 
-```sql
--- Paste your SQL code below for Question 5
-```
+![image](https://github.com/user-attachments/assets/947cc35a-bc21-4555-999a-e2abe107fd88)
 
-**Output:**
-
-![Output5](output.png)
 
 **Question 6**
----
--- Paste Question 6 here
 
-```sql
--- Paste your SQL code below for Question 6
-```
-
-**Output:**
-
-![Output6](output.png)
+![image](https://github.com/user-attachments/assets/8d9e4979-7977-478b-a3e6-1f9c569d9a84)
 
 **Question 7**
----
--- Paste Question 7 here
 
-```sql
--- Paste your SQL code below for Question 7
-```
-
-**Output:**
-
-![Output7](output.png)
+![image](https://github.com/user-attachments/assets/70fb3294-6439-4d7b-9e6a-d91d7d91d568)
 
 **Question 8**
----
--- Paste Question 8 here
 
-```sql
--- Paste your SQL code below for Question 8
-```
-
-**Output:**
-
-![Output8](output.png)
+![image](https://github.com/user-attachments/assets/77f46725-3a5e-4e81-9e3c-e6749ff9f88a)
 
 **Question 9**
----
--- Paste Question 9 here
 
-```sql
--- Paste your SQL code below for Question 9
-```
+![image](https://github.com/user-attachments/assets/9e3feffb-47c8-4df4-9bba-20084618afac)
 
-**Output:**
-
-![Output9](output.png)
 
 **Question 10**
----
--- Paste Question 10 here
 
-```sql
--- Paste your SQL code below for Question 10
-```
-
-**Output:**
-
-![Output10](output.png)
+![image](https://github.com/user-attachments/assets/5091c6b4-1b88-4292-8693-66fd34f81e24)
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
